@@ -1,0 +1,387 @@
+{
+    "relation": {
+        "relname": "schedule2",
+        "inh": true,
+        "relpersistence": "p",
+        "location": 29
+    },
+    "table_elts": [
+        {
+            "Node": {
+                "ColumnDef": {
+                    "colname": "id3",
+                    "type_name": {
+                        "names": [
+                            {
+                                "Node": {
+                                    "String_": {
+                                        "sval": "jsonb"
+                                    }
+                                }
+                            }
+                        ],
+                        "typemod": -1,
+                        "location": 413
+                    },
+                    "is_local": true,
+                    "constraints": [
+                        {
+                            "Node": {
+                                "Constraint": {
+                                    "contype": 3,
+                                    "location": 419,
+                                    "raw_expr": {
+                                        "Node": {
+                                            "AExpr": {
+                                                "kind": 1,
+                                                "name": [
+                                                    {
+                                                        "Node": {
+                                                            "String_": {
+                                                                "sval": "+"
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "lexpr": {
+                                                    "Node": {
+                                                        "AExpr": {
+                                                            "kind": 1,
+                                                            "name": [
+                                                                {
+                                                                    "Node": {
+                                                                        "String_": {
+                                                                            "sval": "+"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "lexpr": {
+                                                                "Node": {
+                                                                    "AExpr": {
+                                                                        "kind": 1,
+                                                                        "name": [
+                                                                            {
+                                                                                "Node": {
+                                                                                    "String_": {
+                                                                                        "sval": "+"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "lexpr": {
+                                                                            "Node": {
+                                                                                "AConst": {
+                                                                                    "Val": {
+                                                                                        "Ival": {
+                                                                                            "ival": 1
+                                                                                        }
+                                                                                    },
+                                                                                    "location": 429
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "rexpr": {
+                                                                            "Node": {
+                                                                                "AConst": {
+                                                                                    "Val": {
+                                                                                        "Ival": {
+                                                                                            "ival": 2
+                                                                                        }
+                                                                                    },
+                                                                                    "location": 431
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "location": 430
+                                                                    }
+                                                                }
+                                                            },
+                                                            "rexpr": {
+                                                                "Node": {
+                                                                    "AExpr": {
+                                                                        "kind": 1,
+                                                                        "name": [
+                                                                            {
+                                                                                "Node": {
+                                                                                    "String_": {
+                                                                                        "sval": "+"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "lexpr": {
+                                                                            "Node": {
+                                                                                "AConst": {
+                                                                                    "Val": {
+                                                                                        "Ival": {
+                                                                                            "ival": 1
+                                                                                        }
+                                                                                    },
+                                                                                    "location": 434
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "rexpr": {
+                                                                            "Node": {
+                                                                                "AConst": {
+                                                                                    "Val": {
+                                                                                        "Ival": {
+                                                                                            "ival": 1
+                                                                                        }
+                                                                                    },
+                                                                                    "location": 436
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "location": 435
+                                                                    }
+                                                                }
+                                                            },
+                                                            "location": 432
+                                                        }
+                                                    }
+                                                },
+                                                "rexpr": {
+                                                    "Node": {
+                                                        "AExpr": {
+                                                            "kind": 1,
+                                                            "name": [
+                                                                {
+                                                                    "Node": {
+                                                                        "String_": {
+                                                                            "sval": "*"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "lexpr": {
+                                                                "Node": {
+                                                                    "AExpr": {
+                                                                        "kind": 1,
+                                                                        "name": [
+                                                                            {
+                                                                                "Node": {
+                                                                                    "String_": {
+                                                                                        "sval": "+"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "lexpr": {
+                                                                            "Node": {
+                                                                                "AConst": {
+                                                                                    "Val": {
+                                                                                        "Ival": {
+                                                                                            "ival": 3
+                                                                                        }
+                                                                                    },
+                                                                                    "location": 442
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "rexpr": {
+                                                                            "Node": {
+                                                                                "AConst": {
+                                                                                    "Val": {
+                                                                                        "Ival": {
+                                                                                            "ival": 4
+                                                                                        }
+                                                                                    },
+                                                                                    "location": 444
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "location": 443
+                                                                    }
+                                                                }
+                                                            },
+                                                            "rexpr": {
+                                                                "Node": {
+                                                                    "AConst": {
+                                                                        "Val": {
+                                                                            "Ival": {
+                                                                                "ival": 5
+                                                                            }
+                                                                        },
+                                                                        "location": 447
+                                                                    }
+                                                                }
+                                                            },
+                                                            "location": 446
+                                                        }
+                                                    }
+                                                },
+                                                "location": 439
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "location": 409
+                }
+            }
+        },
+        {
+            "Node": {
+                "ColumnDef": {
+                    "colname": "id3",
+                    "type_name": {
+                        "names": [
+                            {
+                                "Node": {
+                                    "String_": {
+                                        "sval": "jsonb"
+                                    }
+                                }
+                            }
+                        ],
+                        "typemod": -1,
+                        "location": 458
+                    },
+                    "is_local": true,
+                    "constraints": [
+                        {
+                            "Node": {
+                                "Constraint": {
+                                    "contype": 3,
+                                    "location": 464,
+                                    "raw_expr": {
+                                        "Node": {
+                                            "FuncCall": {
+                                                "funcname": [
+                                                    {
+                                                        "Node": {
+                                                            "String_": {
+                                                                "sval": "abs"
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "args": [
+                                                    {
+                                                        "Node": {
+                                                            "AExpr": {
+                                                                "kind": 1,
+                                                                "name": [
+                                                                    {
+                                                                        "Node": {
+                                                                            "String_": {
+                                                                                "sval": "*"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "lexpr": {
+                                                                    "Node": {
+                                                                        "AExpr": {
+                                                                            "kind": 1,
+                                                                            "name": [
+                                                                                {
+                                                                                    "Node": {
+                                                                                        "String_": {
+                                                                                            "sval": "+"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ],
+                                                                            "lexpr": {
+                                                                                "Node": {
+                                                                                    "AConst": {
+                                                                                        "Val": {
+                                                                                            "Ival": {
+                                                                                                "ival": 1
+                                                                                            }
+                                                                                        },
+                                                                                        "location": 477
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "rexpr": {
+                                                                                "Node": {
+                                                                                    "AConst": {
+                                                                                        "Val": {
+                                                                                            "Ival": {
+                                                                                                "ival": 2
+                                                                                            }
+                                                                                        },
+                                                                                        "location": 479
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "location": 478
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "rexpr": {
+                                                                    "Node": {
+                                                                        "AConst": {
+                                                                            "Val": {
+                                                                                "Ival": {
+                                                                                    "ival": 55
+                                                                                }
+                                                                            },
+                                                                            "location": 484
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "location": 482
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "funcformat": 1,
+                                                "location": 472
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "location": 454
+                }
+            }
+        },
+        {
+            "Node": {
+                "Constraint": {
+                    "contype": 10,
+                    "conname": "d",
+                    "location": 491,
+                    "pktable": {
+                        "relname": "a10_test",
+                        "inh": true,
+                        "relpersistence": "p",
+                        "location": 532
+                    },
+                    "fk_attrs": [
+                        {
+                            "Node": {
+                                "String_": {
+                                    "sval": "id"
+                                }
+                            }
+                        }
+                    ],
+                    "pk_attrs": [
+                        {
+                            "Node": {
+                                "String_": {
+                                    "sval": "user1"
+                                }
+                            }
+                        }
+                    ],
+                    "fk_matchtype": "s",
+                    "fk_upd_action": "a",
+                    "fk_del_action": "c",
+                    "initially_valid": true
+                }
+            }
+        }
+    ],
+    "oncommit": 1
+}
